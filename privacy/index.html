@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Privacy policy: Jharokha</title>
+    <meta
+      name="description"
+      content="Jharokha collects no data. This page explains what the extension stores on your device and why it asks for each permission."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' rx='28' fill='%23141a2e'/%3E%3Cpath d='M32 100V58C32 40 54 38 64 22C74 38 96 40 96 58V100Z' fill='%23f6f7fa'/%3E%3Crect x='49' y='62' width='30' height='34' rx='5' fill='%234a78e8'/%3E%3Crect x='22' y='98' width='84' height='12' rx='4' fill='%23d6a340'/%3E%3C/svg%3E"
+    />
+    <style>
+      :root {
+        --bg: #f6f7fa;
+        --surface: #ffffff;
+        --fg: #1a2033;
+        --muted: #4d5670;
+        --line: #d9deea;
+        --accent: #2f5fd0;
+        --brass: #d6a340;
+        --code-bg: #eceff6;
+        color-scheme: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #141a2e;
+          --surface: #1f2742;
+          --fg: #eef0f7;
+          --muted: #b3bad0;
+          --line: #353f63;
+          --accent: #8aa9f5;
+          --code-bg: #2a3354;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font-family:
+          'Segoe UI Variable',
+          'Segoe UI',
+          -apple-system,
+          system-ui,
+          'Helvetica Neue',
+          sans-serif;
+        font-size: 17px;
+        line-height: 1.6;
+      }
+      header {
+        background: #141a2e;
+        color: #f6f7fa;
+        border-bottom: 4px solid var(--brass);
+      }
+      .wrap {
+        width: min(720px, 100% - 32px);
+        margin-inline: auto;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding-block: 28px;
+      }
+      .brand svg {
+        width: 44px;
+        height: 44px;
+        flex: none;
+      }
+      .brand p {
+        margin: 0;
+        line-height: 1.25;
+      }
+      .brand .name {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .brand .tag {
+        color: #c9ced8;
+        font-size: 15px;
+      }
+      main {
+        padding-block: 32px 56px;
+      }
+      h1 {
+        margin: 0 0 4px;
+        font-size: 32px;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+      }
+      h2 {
+        margin: 40px 0 8px;
+        font-size: 22px;
+        line-height: 1.3;
+      }
+      .updated {
+        margin: 0 0 24px;
+        color: var(--muted);
+        font-size: 15px;
+      }
+      .summary {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-left: 4px solid var(--accent);
+        border-radius: 12px;
+        padding: 16px 20px;
+        font-size: 19px;
+        font-weight: 600;
+      }
+      p,
+      ul {
+        margin: 12px 0;
+      }
+      li + li {
+        margin-top: 6px;
+      }
+      a {
+        color: var(--accent);
+      }
+      a:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 2px;
+        border-radius: 2px;
+      }
+      code {
+        background: var(--code-bg);
+        padding: 1px 6px;
+        border-radius: 6px;
+        font-family: 'Cascadia Mono', Consolas, ui-monospace, monospace;
+        font-size: 0.9em;
+        overflow-wrap: anywhere;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        overflow: hidden;
+        font-size: 16px;
+      }
+      th,
+      td {
+        text-align: left;
+        vertical-align: top;
+        padding: 10px 14px;
+        border-bottom: 1px solid var(--line);
+      }
+      tr:last-child td {
+        border-bottom: 0;
+      }
+      th {
+        font-weight: 600;
+        background: var(--code-bg);
+      }
+      .scroll {
+        overflow-x: auto;
+      }
+      @media (max-width: 560px) {
+        body {
+          font-size: 16px;
+        }
+        h1 {
+          font-size: 27px;
+        }
+        th,
+        td {
+          padding: 8px 10px;
+        }
+        table {
+          min-width: 480px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap brand">
+        <svg viewBox="0 0 128 128" aria-hidden="true">
+          <rect width="128" height="128" rx="28" fill="#252f55" />
+          <circle cx="64" cy="17" r="5.5" fill="#d6a340" />
+          <path d="M32 100V58C32 40 54 38 64 22C74 38 96 40 96 58V100Z" fill="#f6f7fa" />
+          <path d="M43 100V61C43 49 58 46 64 35C70 46 85 49 85 61V100Z" fill="#141a2e" />
+          <rect x="49" y="62" width="30" height="34" rx="5" fill="#4a78e8" />
+          <rect x="22" y="98" width="84" height="12" rx="4" fill="#d6a340" />
+        </svg>
+        <p>
+          <span class="name">Jharokha – Responsive Device Simulator</span><br />
+          <span class="tag">See your website through every screen.</span>
+        </p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <h1>Privacy policy</h1>
+      <p class="updated">Last updated: 1 October 2026. Applies to version 1.0.0 and later.</p>
+
+      <p class="summary">Jharokha collects no data.</p>
+
+      <h2>What this means</h2>
+      <ul>
+        <li>
+          No personal information, browsing history, page content or usage analytics is collected,
+          stored on a server, sold or shared.
+        </li>
+        <li>There are no accounts, no servers run by us and no analytics or advertising code.</li>
+        <li>
+          The extension makes no network requests of its own and loads no remote code. Pages you
+          preview load exactly as they would in a normal tab.
+        </li>
+      </ul>
+
+      <h2>What is stored on your device</h2>
+      <p>
+        Your settings (theme, last device, zoom and similar), favourite devices, recent devices and
+        custom devices are saved in your browser's extension storage on your own computer. They are
+        never uploaded or synced by Jharokha, and you can delete them at any time with "Reset" on
+        the options page or by removing the extension.
+      </p>
+
+      <h2>Screenshots</h2>
+      <p>
+        Screenshots are created on your device, only when you ask for one, and saved or copied only
+        where you choose. They are never sent anywhere.
+      </p>
+
+      <h2>Recordings</h2>
+      <p>
+        "Record video" (Chrome and Edge) records the preview of the tab you choose, only after you
+        press Record and only while the red REC sign is shown. The video (and a GIF, if you export
+        one) is made in memory on your device and saved with your browser's normal download.
+        Recordings never leave your device and are never uploaded or shared.
+      </p>
+
+      <h2>The pages you preview</h2>
+      <p>
+        Jharokha shows the page of the tab you opened it on inside a device frame. It does not read,
+        record or transmit that page's content. Whatever the page itself does (for example loading
+        its own scripts or sending its own analytics) is the same as in a normal tab, and is
+        governed by that site's own policy.
+      </p>
+
+      <h2>Permissions and why they are needed</h2>
+      <div class="scroll">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Permission</th>
+              <th scope="col">Why</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>storage</code></td>
+              <td>
+                Saves your settings, favorite devices, recent devices and custom devices on your own
+                machine.
+              </td>
+            </tr>
+            <tr>
+              <td><code>activeTab</code></td>
+              <td>
+                Lets the simulator open on the tab you clicked, only after you click the icon or
+                press the shortcut.
+              </td>
+            </tr>
+            <tr>
+              <td><code>scripting</code></td>
+              <td>
+                Injects the simulator overlay into that tab on demand, so nothing runs on pages
+                where you never open it.
+              </td>
+            </tr>
+            <tr>
+              <td><code>declarativeNetRequestWithHostAccess</code></td>
+              <td>
+                Some sites refuse to load inside a frame. For the preview frame in that one tab
+                only, it removes <code>X-Frame-Options</code> and (only if it contains
+                <code>frame-ancestors</code>) the page's CSP header. Optionally sends the device's
+                user agent for that frame.
+              </td>
+            </tr>
+            <tr>
+              <td><code>&lt;all_urls&gt;</code> (optional, asked at runtime)</td>
+              <td>
+                Asked only when a site blocks framing and you press "Allow on this site". Needed for
+                the rule above. You can revoke it in your browser's settings.
+              </td>
+            </tr>
+            <tr>
+              <td><code>tabCapture</code> (optional, asked at runtime, Chrome and Edge)</td>
+              <td>
+                Asked only when you first press "Record video". Records the simulator preview of the
+                tab you chose, only while the red REC sign is shown. The video is saved on your
+                machine and never uploaded.
+              </td>
+            </tr>
+            <tr>
+              <td><code>offscreen</code> (optional, asked at runtime, Chrome and Edge)</td>
+              <td>
+                Asked together with tabCapture. A hidden extension page turns the tab recording into
+                the video file, because the background service worker cannot record video.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        The extension's own pages also allow <code>'wasm-unsafe-eval'</code> so it can run its
+        bundled WebAssembly image code. That does not allow <code>eval()</code> or code from the
+        internet.
+      </p>
+
+      <h2>Real device mode</h2>
+      <p>
+        A separate build of Jharokha may offer "Real device mode", which uses Chrome's
+        <code>debugger</code> and <code>sidePanel</code> permissions to emulate a device on a tab
+        you choose, only until you press Stop. It collects no data either, and nothing leaves your
+        machine. This policy applies to it as well.
+      </p>
+
+      <h2>Children</h2>
+      <p>Jharokha is a developer tool and collects no data from anyone, including children.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        If this ever changes, the new policy will be published here before the change ships, with a
+        new date at the top, and the change will be listed in the extension's release notes.
+      </p>
+
+      <h2>Questions</h2>
+      <p>
+        Email Abhishek Kumar Singh at
+        <a href="mailto:abhisheksinghinfo7@gmail.com">abhisheksinghinfo7@gmail.com</a>.
+      </p>
+    </main>
+  </body>
+</html>
